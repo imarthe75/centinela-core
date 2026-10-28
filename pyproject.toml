@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "centinela-core"
+version = "0.1.1"
+description = "Shared pieces of the Centinela ecosystem: test credentials in Vault, isolated browser runner, honest result model."
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+vault = ["hvac>=2.1"]
+test = ["pytest>=8", "hvac>=2.1"]
+
+[tool.setuptools.packages.find]
+include = ["centinela_core*"]
