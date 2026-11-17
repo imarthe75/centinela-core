@@ -79,7 +79,7 @@ npm test -- --testNamePattern="nuevo comportamiento"
 
 - **systematic-debugging**: Úsalo cuando un test falla de forma inesperada
 - **verification-before-completion**: Ejecuta la suite completa antes de declarar "listo"
-- **ponytail-review**: Asegura que los helpers de test no dupliquen la stdlib
+- **Escalera de eficiencia** (`rules/common/efficiency.md`): los helpers de test no duplican la stdlib ni lo que ya existe
 
 
 ---
